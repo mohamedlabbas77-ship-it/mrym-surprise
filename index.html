@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRYM — A Little Place of Happiness</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="night-sky">
+        <div class="stars"></div>
+        <div class="twinkle-stars"></div>
+        <div class="shooting-star"></div>
+        <div class="moon"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#welcome" class="logo">MRYM ✨</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#welcome" class="nav-link active">Accueil</a></li>
+                    <li><a href="#letter" class="nav-link">La lettre</a></li>
+                    <li><a href="#messages" class="nav-link">Petits messages</a></li>
+                    <li><a href="#surprise" class="nav-link">Surprise</a></li>
+                    <li><a href="#sky" class="nav-link">Le ciel</a></li>
+                    <li><a href="#finish" class="nav-link">Pour finir</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="welcome" class="hero-section">
+            <div class="hero-content glass-card">
+                <h1 class="glow-text">MRYM ✨</h1>
+                <p class="subtitle">A Little Place of Happiness</p>
+                <p class="french-intro">« Un petit univers créé avec soin, simplement pour te faire sourire. »</p>
+                <button class="btn-primary" onclick="scrollToSection('letter')">
+                    Entrer dans ton petit univers ✨
+                </button>
+                <div class="signature">
+                    Made with care by Medoud 🤍
+                </div>
+            </div>
+        </section>
+
+        <section id="letter" class="section">
+            <div class="container">
+                <h2 class="section-title">A Little Note for You, Mrym 🤍</h2>
+                <div class="letter-card glass-card">
+                    <div class="reading-progress-container">
+                        <div class="reading-progress-bar" id="progressBar"></div>
+                    </div>
+                    <div class="letter-actions">
+                        <button class="btn-secondary" id="instantReadBtn">Lire le message complet</button>
+                    </div>
+                    <div class="letter-body" id="letterBody">
+                        <p>Hey Mrym,</p>
+                        <p>I don’t really have a special reason for making this little place for you. There’s no birthday, no celebration, and no particular occasion. I just thought that sometimes, a simple gesture can make an ordinary day feel a little more beautiful.</p>
+                        <p>So, here is something small that I wanted to share with you.</p>
+                        <p>First of all, I hope life is kind to you. I hope you have mornings when you wake up feeling peaceful, days when things go your way, and evenings when you can finally relax and feel proud of yourself. I hope you find reasons to smile even when your day hasn’t been the easiest.</p>
+                        <p>And when things do get difficult, I hope you remember that one bad day doesn’t define your life, one mistake doesn’t define your worth, and one disappointing moment doesn’t mean that better things aren’t waiting for you.</p>
+                        <p>You don’t have to be strong all the time. You don’t have to have everything figured out. You don’t need to pretend that everything is perfect when it isn’t. You’re allowed to have quiet days, confusing moments, and times when all you want is a little peace.</p>
+                        <p>I hope you always make room for the little things that make you happy. Your favorite songs, random conversations that make you laugh, beautiful sunsets, unexpected good news, and those tiny moments that might seem ordinary to everyone else but somehow make your day better.</p>
+                        <p>I hope you meet people who appreciate your presence, listen when you speak, respect your feelings, and make you feel comfortable being yourself. People who bring peace into your life rather than making everything more complicated. You deserve kindness that feels genuine, not kindness that comes with conditions.</p>
+                        <p>And please, don’t be too hard on yourself. Sometimes we focus so much on what we haven’t achieved that we forget how far we’ve already come. Give yourself credit for the things you handle quietly, the challenges you overcome without telling anyone, and the progress that nobody else gets to see.</p>
+                        <p>You are allowed to grow at your own pace. You are allowed to change your mind, discover new interests, make mistakes, and start again. Life isn’t a competition, and you don’t have to follow anyone else’s timeline.</p>
+                        <p>I hope you never lose your curiosity about the world. I hope you keep discovering things that excite you, places that inspire you, music that speaks to you, and dreams that make you look forward to tomorrow.</p>
+                        <p>And on the days when you feel a little lost, I hope something reminds you that life can still surprise you in beautiful ways. Sometimes happiness arrives through the smallest doors: a message at the right moment, a conversation you didn’t expect, a song you haven’t heard in years, or a simple moment when you realize that things aren’t quite as bad as they seemed.</p>
+                        <p>I made this little website because I wanted to create something different from an ordinary message. Something you could explore, smile at, and perhaps come back to whenever you need a small reminder that there is still goodness in the world.</p>
+                        <p>You don’t have to do anything in return. You don’t even have to find the perfect words to respond. I simply hope this little surprise brings a smile to your face, even if it’s only for a moment.</p>
+                        <p>Thank you for being yourself, for the conversations we’ve shared, and for the little moments that can make an ordinary day memorable. Sometimes, the smallest things leave the nicest impressions.</p>
+                        <p>Whatever life has planned for you, I hope it brings you peace when you need rest, courage when you face challenges, laughter when your heart feels heavy, and people who genuinely wish to see you happy.</p>
+                        <p>Keep taking care of yourself, keep believing that good things are possible, and never forget to appreciate the person you are becoming.</p>
+                        <p>And if you ever come back to this little corner of the internet, I hope it reminds you to slow down for a moment, take a deep breath, and remember that you deserve beautiful things simply because you’re a human being with your own story, dreams, and feelings.</p>
+                        <p>That’s all I wanted to say.</p>
+                        <p>No special occasion. No big explanation. Just a little something, made with care, to wish you more smiles, more peaceful days, and more beautiful moments ahead.</p>
+                        <p>Take care of yourself, Mrym.</p>
+                        <p>And keep a little light for yourself, even on the cloudy days.</p>
+                        <p>With care,</p>
+                        <p><strong>Medoud 🤍</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="messages" class="section">
+            <div class="container">
+                <h2 class="section-title">Un petit mot pour toi</h2>
+                <p class="section-desc">Clique sur une carte pour découvrir un message doux.</p>
+                <div class="cards-grid">
+                    <div class="interactive-card glass-card" onclick="openFrenchModal(0)">
+                        <h3>Un jour difficile</h3>
+                        <p>Clique pour lire...</p>
+                    </div>
+                    <div class="interactive-card glass-card" onclick="openFrenchModal(1)">
+                        <h3>Besoin de courage</h3>
+                        <p>Clique pour lire...</p>
+                    </div>
+                    <div class="interactive-card glass-card" onclick="openFrenchModal(2)">
+                        <h3>Besoin de sourire</h3>
+                        <p>Clique pour lire...</p>
+                    </div>
+                    <div class="interactive-card glass-card" onclick="openFrenchModal(3)">
+                        <h3>Petit rappel</h3>
+                        <p>Clique pour lire...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal-overlay" id="frenchModal">
+            <div class="modal-content glass-card">
+                <h3 id="modalTitle">Titre</h3>
+                <p id="modalText">Message...</p>
+                <div class="modal-buttons">
+                    <button class="btn-secondary" onclick="randomFrenchCard()">Choisir un autre message</button>
+                    <button class="btn-primary" onclick="closeFrenchModal()">Fermer</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="surprise" class="section">
+            <div class="container">
+                <h2 class="section-title">Une petite surprise</h2>
+                <p class="section-desc">Un petit coffret magique juste pour toi.</p>
+                <div class="gift-box-container">
+                    <div class="gift-box" id="giftBox" onclick="openGiftBox()">
+                        <div class="box-lid">🎁</div>
+                        <div class="box-body">Clique pour ouvrir</div>
+                    </div>
+                    <div class="surprise-reveal hidden" id="surpriseReveal">
+                        <div class="glass-card surprise-card">
+                            <p id="surpriseText">Surprise message...</p>
+                            <button class="btn-secondary" onclick="newSurprise()">Une autre surprise ✨</button>
+                            <button class="btn-primary" onclick="resetGiftBox()">Fermer le coffret</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sky" class="section">
+            <div class="container">
+                <h2 class="section-title">The Little Sky</h2>
+                <p class="section-desc">Clique sur les étoiles brillantes dans le ciel pour découvrir des pensées douces.</p>
+                <div class="interactive-sky-box glass-card">
+                    <div class="sky-display" id="skyDisplay">
+                        Clique sur une étoile ci-dessous ✨
+                    </div>
+                    <div class="stars-constellation" id="constellationContainer"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="finish" class="section">
+            <div class="container">
+                <div class="final-card glass-card">
+                    <h2>Prends soin de toi, Mrym.</h2>
+                    <p>« J’espère que de belles choses t’attendent. »</p>
+                    <p>« N’oublie jamais de garder un peu de douceur pour toi-même. »</p>
+                    <p class="signature-final">Avec attention, <strong>Medoud 🤍</strong></p>
+                    <div class="final-buttons">
+                        <button class="btn-secondary" onclick="scrollToSection('messages')">Revoir les messages</button>
+                        <button class="btn-primary" onclick="scrollToSection('welcome')">Retour au début ✨</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>MRYM — A Little Place of Happiness | Made with care by Medoud 🤍</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
